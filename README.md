@@ -64,7 +64,7 @@ Vulnerability #1: Cross-Site Request Forgery
   - ![5](/gifs/CSRF.gif?raw=true)
   - Steps taken:
   1. As admin go to **USERS** to see the current users registered on the site.
-  2. Loading the [script](../csrf.html) that contains the code which changes the contend of a
+  2. Loading the [script](/csrf.html) that contains the code which changes the contend of a
      targeted user we change their values.
 
 
