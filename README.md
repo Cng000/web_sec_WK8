@@ -21,7 +21,8 @@ Vulnerability #1: SQL Injection
   - ![1](/gifs/SQLI.gif?raw=true)
   - Steps taken:
   1. Using sqlmap it give us the vulnerability
-  ``` 'AND SLEEP(5)=0--'
+    ```
+    'AND SLEEP(5)=0--'
     ```
   2. Insert this into the url 
   3. The server will execute the SQLI and sleep for 5 seconds.
